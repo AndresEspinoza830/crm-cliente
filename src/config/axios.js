@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const clienteAxios = axios.create({
-  baseURL: "http://localhost:5004",
+  baseURL: "https://crm-api-andresespinoza830.onrender.com",
 });
 
 export default clienteAxios;
